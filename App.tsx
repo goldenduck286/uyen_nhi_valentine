@@ -4,7 +4,7 @@ import Envelope from './components/Envelope';
 import { AppState } from './types';
 
 const FIXED_MESSAGE = "Cảm ơn em thật nhiều vì đã chọn anh và kiên nhẫn đồng hành cùng anh qua mọi chặng đường. Mong rằng mỗi ngày bên nhau của chúng mình đều sẽ trôi qua thật êm đềm và ngọt ngào. Anh yêu em.";
-const MUSIC_URL = "/Cho-Em-Mot-Lan-Yeu-Hoang-Duyen.mp3";
+const MUSIC_URL = `/uyen_nhi_valentine/Cho-Em-Mot-Lan-Yeu-Hoang-Duyen.mp3`;
 
 const HeartParticle: React.FC<{ delay: number; left: string; size: number; duration: number; angle: number }> = ({ delay, left, size, duration, angle }) => (
   <div 
